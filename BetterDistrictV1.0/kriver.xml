@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_HANGING_GARDENS"/>
+			<Set RequiresRiver="false"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_RUHR_VALLEY"/>
+			<Set RequiresRiver="false"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_BIG_BEN"/>
+			<Set RequiresRiver="false"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_HERMITAGE"/>
+			<Set RequiresRiver="false"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_TAJ_MAHAL"/>
+			<Set RequiresRiver="false"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_ORSZAGHAZ"/>
+			<Set RequiresRiver="false"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_BIOSPHERE"/>
+			<Set RequiresRiver="false"/>
+		</Update>
+		</Buildings>
+</GameData>

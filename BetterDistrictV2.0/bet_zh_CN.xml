@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+  
+  	<Replace Tag="LOC_DISTRICT_NEI_PRODUCTION" Language="zh_Hans_CN">
+      <Text>相邻社区使金币+3。</Text>
+    </Replace>	
+	<Replace Tag="LOC_DISTRICT_CAN_PRODUCTION" Language="zh_Hans_CN">
+      <Text>相邻运河使金币+3。</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_DISTRICT_DIS_FOOD" Language="zh_Hans_CN">
+      <Text>相邻区域使食物+0.5。</Text>
+    </Replace>	
+	<Replace Tag="LOC_DISTRICT_INB_FOOD" Language="zh_Hans_CN">
+      <Text>相邻工业区使食物+3。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_CEB_FOOD" Language="zh_Hans_CN">
+      <Text>相邻市中心使食物+3。</Text>
+    </Replace>	
+	<Replace Tag="LOC_DISTRICT_INB_PRODUCTION" Language="zh_Hans_CN">
+      <Text>相邻工业区使产能+6。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_DIS_PRODUCTION" Language="zh_Hans_CN">
+      <Text>相邻区域使产能+0.5。</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_DISTRICT_AER_PRODUCTION" Language="zh_Hans_CN">
+      <Text>相邻机场使产能+2。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_ENC_PRODUCTION" Language="zh_Hans_CN">
+      <Text>相邻军营使产能+2。</Text>
+    </Replace>	
+	<Replace Tag="LOC_DISTRICT_SPA_PRODUCTION" Language="zh_Hans_CN">
+      <Text>相邻宇航中心使产能+2。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_CEN_PRODUCTION" Language="zh_Hans_CN">
+      <Text>相邻市政广场使产能+2。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_CCN_PRODUCTION" Language="zh_Hans_CN">
+      <Text>相邻市中心使产能+2。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_CAM_PRODUCTION" Language="zh_Hans_CN">
+      <Text>相邻学院使产能+2。</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_DISTRICT_IND_PRODUCTION" Language="zh_Hans_CN">
+      <Text>相邻工业区使产能+10。</Text>
+    </Replace>	
+  </LocalizedText>
+	
+</GameData>

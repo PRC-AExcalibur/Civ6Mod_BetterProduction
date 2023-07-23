@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_KILWA_KISIWANI"/>
+			<Set Coast="NULL"/>
+		</Update>
+</Buildings>
+</GameData>

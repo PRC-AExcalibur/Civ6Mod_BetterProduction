@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_FACTORY"/>
+			<Set CitizenSlots="12"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_FACTORY"/>
+			<Set Entertainment="2"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_ELECTRONICS_FACTORY"/>
+			<Set CitizenSlots="12"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_ELECTRONICS_FACTORY"/>
+			<Set Entertainment="2"/>
+		</Update>
+
+		<Update>
+			<Where BuildingType="BUILDING_RESEARCH_LAB"/>
+			<Set Entertainment="2"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_BROADCAST_CENTER"/>
+			<Set Entertainment="2"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_FILM_STUDIO"/>
+			<Set Entertainment="2"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_MILITARY_ACADEMY"/>
+			<Set Entertainment="1"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_SEAPORT"/>
+			<Set Entertainment="1"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_AIRPORT"/>
+			<Set Entertainment="1"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_BANK"/>
+			<Set Entertainment="1"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_TEMPLE"/>
+			<Set Entertainment="1"/>
+		</Update>
+		
+		<Update>
+			<Where BuildingType="BUILDING_GREAT_LIGHTHOUSE"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_SYDNEY_OPERA_HOUSE"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_FORBIDDEN_CITY"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_EIFFEL_TOWER"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_COLOSSUS"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_COLOSSEUM"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_TERRACOTTA_ARMY"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_ALHAMBRA"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_GREAT_LIBRARY"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_MAHABODHI_TEMPLE"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_HAGIA_SOPHIA"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_VENETIAN_ARSENAL"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_GREAT_ZIMBABWE"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_RUHR_VALLEY"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_BOLSHOI_THEATRE"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_OXFORD_UNIVERSITY"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_BIG_BEN"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_BROADWAY"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_ESTADIO_DO_MARACANA"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_KOTOKU_IN"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_CASA_DE_CONTRATACION"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_MEENAKSHI_TEMPLE"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_ANGKOR_WAT"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_ST_BASILS_CATHEDRAL"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_HALICARNASSUS_MAUSOLEUM"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_STATUE_LIBERTY"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_UNIVERSITY_SANKORE"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_STATUE_OF_ZEUS"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_BIOSPHERE"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_TORRE_DE_BELEM"/>
+			<Set AdjacentDistrict="NULL"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_APADANA"/>
+			<Set AdjacentCapital="false"/>
+		</Update>
+		</Buildings>
+</GameData>

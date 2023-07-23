@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<District_Adjacencies>
+
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="Nei_Gold"/>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="Wen_Gold"/>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="Ent_Gold"/>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="Can_Gold"/>
+		
+		<Row DistrictType="DISTRICT_HARBOR" YieldChangeId="Nei_Gold"/>
+		<Row DistrictType="DISTRICT_HARBOR" YieldChangeId="Wen_Gold"/>
+		<Row DistrictType="DISTRICT_HARBOR" YieldChangeId="Ent_Gold"/>
+		<Row DistrictType="DISTRICT_HARBOR" YieldChangeId="Can_Gold"/>
+		
+		
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="Aer_Production"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="Enc_Production"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="Spa_Production"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="Cam_Production"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="Cen_Production"/>
+		
+		<Row DistrictType="DISTRICT_DAM" YieldChangeId="Inb_Production"/>
+		<Row DistrictType="DISTRICT_DAM" YieldChangeId="Dis_Production"/>
+		
+		<Row DistrictType="DISTRICT_AQUEDUCT" YieldChangeId="Inb_Food"/>
+		<Row DistrictType="DISTRICT_AQUEDUCT" YieldChangeId="Ceb_Food"/>
+		<Row DistrictType="DISTRICT_AQUEDUCT" YieldChangeId="Dis_Food"/>
+		
+		<Row DistrictType="DISTRICT_SPACEPORT" YieldChangeId="Ind_Production"/>
+
+		
+	</District_Adjacencies>
+	
+	<Adjacency_YieldChanges>
+		<Row ID="Nei_Gold" Description="LOC_DISTRICT_NEI_GOLD" YieldType="YIELD_GOLD" YieldChange="3" TilesRequired="1" AdjacentDistrict="DISTRICT_NEIGHBORHOOD"/>
+		<Row ID="Wen_Gold" Description="LOC_DISTRICT_WEN_GOLD" YieldType="YIELD_GOLD" YieldChange="6" TilesRequired="1" AdjacentDistrict="DISTRICT_WATER_ENTERTAINMENT_COMPLEX"/>
+		<Row ID="Ent_Gold" Description="LOC_DISTRICT_ENT_GOLD" YieldType="YIELD_GOLD" YieldChange="6" TilesRequired="1" AdjacentDistrict="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+		<Row ID="Can_Gold" Description="LOC_DISTRICT_CAN_GOLD" YieldType="YIELD_GOLD" YieldChange="6" TilesRequired="1" AdjacentDistrict="DISTRICT_CANAL"/>
+	
+		<Row ID="Aer_Production" Description="LOC_DISTRICT_AER_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_AERODROME"/>
+		<Row ID="Enc_Production" Description="LOC_DISTRICT_ENC_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_ENCAMPMENT"/>
+		<Row ID="Spa_Production" Description="LOC_DISTRICT_SPA_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_SPACEPORT"/>
+		<Row ID="Cen_Production" Description="LOC_DISTRICT_CEN_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_GOVERNMENT"/>
+		<Row ID="Cam_Production" Description="LOC_DISTRICT_CAM_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CAMPUS"/>
+		
+		<Row ID="Inb_Production" Description="LOC_DISTRICT_INB_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="5" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row ID="Dis_Production" Description="LOC_DISTRICT_DIS_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true"/>
+		
+		<Row ID="Inb_Food" Description="LOC_DISTRICT_INB_FOOD" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row ID="Ceb_Food" Description="LOC_DISTRICT_CEB_FOOD" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+		<Row ID="Dis_Food" Description="LOC_DISTRICT_DIS_FOOD" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true"/>
+		
+		<Row ID="Ind_Production" Description="LOC_DISTRICT_IND_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="10" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+	</Adjacency_YieldChanges>
+	
+	<District_ValidTerrains>
+		<Row DistrictType="DISTRICT_AERODROME" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row DistrictType="DISTRICT_AERODROME" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row DistrictType="DISTRICT_AERODROME" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row DistrictType="DISTRICT_AERODROME" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row DistrictType="DISTRICT_AERODROME" TerrainType="TERRAIN_DESERT_HILLS"/>
+		
+		<Row DistrictType="DISTRICT_SPACEPORT" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row DistrictType="DISTRICT_SPACEPORT" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row DistrictType="DISTRICT_SPACEPORT" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row DistrictType="DISTRICT_SPACEPORT" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row DistrictType="DISTRICT_SPACEPORT" TerrainType="TERRAIN_DESERT_HILLS"/>
+		
+		<Row DistrictType="DISTRICT_CANAL" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row DistrictType="DISTRICT_CANAL" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row DistrictType="DISTRICT_CANAL" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row DistrictType="DISTRICT_CANAL" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row DistrictType="DISTRICT_CANAL" TerrainType="TERRAIN_DESERT_HILLS"/>
+	</District_ValidTerrains>
+</GameData>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Modifiers>
+	<Row>
+		<ModifierId>RUHR_VALLEY_LUMBER_MODIFIER</ModifierId>
+		<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+		<SubjectRequirementSetId>RUHR_VALLEY_LUMBER_MODIFIER_REQUIREMENTS</SubjectRequirementSetId>
+	</Row>
+
+  </Modifiers>
+  <ModifierArguments>
+	<Row>
+		<ModifierId>RUHR_VALLEY_LUMBER_MODIFIER</ModifierId>
+		<Name>YieldType</Name>
+		<Value>YIELD_PRODUCTION</Value>
+	</Row>
+	<Row>
+		<ModifierId>RUHR_VALLEY_LUMBER_MODIFIER</ModifierId>
+		<Name>Amount</Name>
+		<Value>1</Value>
+	</Row>
+
+  </ModifierArguments>
+  
+  <BuildingModifiers>
+	<Row>
+		<BuildingType>BUILDING_RUHR_VALLEY</BuildingType>
+		<ModifierId>RUHR_VALLEY_LUMBER_MODIFIER</ModifierId>
+	</Row>
+
+  </BuildingModifiers>
+
+  <RequirementSets>
+	<Row>
+		<RequirementSetId>RUHR_VALLEY_LUMBER_MODIFIER_REQUIREMENTS</RequirementSetId>
+		<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+	</Row>
+
+  </RequirementSets>
+  
+  <RequirementSetRequirements>
+	<Row>
+		<RequirementSetId>RUHR_VALLEY_LUMBER_MODIFIER_REQUIREMENTS</RequirementSetId>
+		<RequirementId>REQUIRES_PLOT_HAS_LUMBER_MILL</RequirementId>
+	</Row>
+
+  </RequirementSetRequirements>
+
+</GameData>

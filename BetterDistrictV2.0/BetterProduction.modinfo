@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f8422ddf-cd8d-41ec-9839-6b7568ae4b4a" version="1">
+		 
+  <Properties>
+    <Name>【种田】生产优化V2.0</Name>
+    <Description>
+	[NEWLINE][NEWLINE]专家（区域公民优化）：
+	[NEWLINE][NEWLINE]所有专家产出x3,如工业区公民产能为6；所有区域专家槽翻倍。
+	
+	[NEWLINE][NEWLINE]区域优化：
+	[NEWLINE][NEWLINE]商业区，港口优化：相邻社区，运河使金币+3。
+	[NEWLINE][NEWLINE]工业区优化：相邻市中心，市政广场，学院，军营，机场，宇航中心（水渠，堤坝，运河）使工业区产能+2。
+	[NEWLINE][NEWLINE]水渠优化：相邻市中心，工业区使水渠食物+3，相邻区域使水渠食物+0.5。
+	[NEWLINE][NEWLINE]堤坝优化：相邻工业区使堤坝产能+6，相邻区域使堤坝产能+0.5。
+	[NEWLINE][NEWLINE]宇航中心优化：相邻工业区使宇航中心产能+10。
+
+	[NEWLINE][NEWLINE]地形优化：机场，宇航中心，运河可以建立在丘陵。
+	
+	[NEWLINE][NEWLINE]奇观优化：不必相邻特定区域和河流（鲁尔山谷）。	
+	
+	</Description>
+    <Teaser>
+	本mod希望提高种田玩法的上限，提高专家数量和专家产出，同时再平衡各个区域。
+	[NEWLINE]极大幅度提高专家（区域公民）价值，并提高专家数量。
+	[NEWLINE]大幅提高水渠，堤坝价值。
+	[NEWLINE]小幅度提高军营机场，运河，宇航中心价值。
+
+	</Teaser>
+    <Authors>AExcalibur</Authors>
+	<CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+	<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="E3F53C61-371C-440B-96CE-077D318B36C0" title="DLC: Australia Civilization Pack" />
+    <Mod id="02A8BDDE-67EA-4D38-9540-26E685E3156E" title="DLC: Aztec Civilization Pack" />
+    <Mod id="1F367231-A040-4793-BDBB-088816853683" title="DLC: Khmer and Indonesia Civilization Pack" />
+    <Mod id="643EA320-8E1A-4CF1-A01C-00D88DDD131A" title="DLC: Nubia Civilization Pack" />
+    <Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="DLC: Persia and Macedon Civilization Pack" />
+    <Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="DLC: Poland Civilization Pack" />
+    <Mod id="2F6E858A-28EF-46B3-BEAC-B985E52E9BC1" title="DLC: Vikings Content" />
+	<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+    <Mod id="A1100FC4-70F2-4129-AC27-2A65A685ED08" title="Byzantine and Gaul" />
+    <Mod id="8424840C-92EF-4426-A9B4-B4E0CB818049" title="Babylon" />
+    <Mod id="1B394FE9-23DC-4868-8F0A-5220CB8FB427" title="Ethiopia" />
+    <Mod id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" title="GranColombia and Maya" />
+    <Mod id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" title="Kublaikhan and Vietnam" />
+    <Mod id="FFDF4E79-DEE2-47BB-919B-F5739106627A" title="Portugal" />
+  </Dependencies>
+  <References>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="E3F53C61-371C-440B-96CE-077D318B36C0" title="DLC: Australia Civilization Pack" />
+    <Mod id="02A8BDDE-67EA-4D38-9540-26E685E3156E" title="DLC: Aztec Civilization Pack" />
+    <Mod id="1F367231-A040-4793-BDBB-088816853683" title="DLC: Khmer and Indonesia Civilization Pack" />
+    <Mod id="643EA320-8E1A-4CF1-A01C-00D88DDD131A" title="DLC: Nubia Civilization Pack" />
+    <Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="DLC: Persia and Macedon Civilization Pack" />
+    <Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="DLC: Poland Civilization Pack" />
+    <Mod id="2F6E858A-28EF-46B3-BEAC-B985E52E9BC1" title="DLC: Vikings Content" />
+    <Mod id="A1100FC4-70F2-4129-AC27-2A65A685ED08" title="Byzantine and Gaul" />
+    <Mod id="8424840C-92EF-4426-A9B4-B4E0CB818049" title="Babylon" />
+    <Mod id="1B394FE9-23DC-4868-8F0A-5220CB8FB427" title="Ethiopia" />
+    <Mod id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" title="GranColombia and Maya" />
+    <Mod id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" title="Kublaikhan and Vietnam" />
+    <Mod id="FFDF4E79-DEE2-47BB-919B-F5739106627A" title="Portugal" />
+  </References>
+  
+  <InGameActions>
+    <UpdateDatabase id="better_production">
+	  <File priority="1000">bet_zh_CN.xml</File>
+	  <File priority="1000">better_district.xml</File>
+	  <File priority="1000">kdistrict.xml</File>
+	  <File priority="1000">kriver.xml</File>
+	  <File priority="1000">kmove.xml</File>
+	  <File priority="1000">kterrain.xml</File>
+	  <File priority="1000">ruhr.xml</File>
+	  <File priority="1000">citizen_change.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+	<File>bet_zh_CN.xml</File>
+	<File>better_district.xml</File>
+	<File>kdistrict.xml</File>
+	<File>kriver.xml</File>
+	<File>kmove.xml</File>
+	<File>kterrain.xml</File>
+	<File>ruhr.xml</File>
+	<File>citizen_change.sql</File>
+  </Files>
+</Mod>
